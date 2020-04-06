@@ -1,0 +1,19 @@
+
+Cat_vs_dog_CNN is the CNN tutorial that I follow from the book Deep Learning in Python to learn about buidling
+Convolutional Neural Network.
+
+3 other files are CNN trained on the face shape dataset. 
+
+The face shape dataset is as follows:
+1. 400 training images
+2. 50 validation images
+3. 50 testing images
+
+The first CNN that I built, named Face_Shape_Custom Model, is a fairly small convent .
+Two other convents make use of pretrained convent, VGG16 and InceptionV3, both trained on ImageNet.
+
+The best accuracy that is achieved so far, 60%, at detecting face shape is by using VGG16 model.
+Right now, due to very little data, the model is overfitting.
+
+In the next iteration, the model will be trained on larger dataset to mitigate overfitting.
+
