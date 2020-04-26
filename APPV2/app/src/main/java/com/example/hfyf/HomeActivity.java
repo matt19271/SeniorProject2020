@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class HomeActivity extends AppCompatActivity {
 
     Button btnLogout;
+    Button btnTakePicture;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -21,6 +22,16 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         btnLogout = findViewById(R.id.button3);
+        btnTakePicture = findViewById(R.id.button4);
+
+        btnTakePicture.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent homeToTakePic = new Intent(HomeActivity.this, CameraActivity.class);
+                startActivity(homeToTakePic);
+            }
+        });
+
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
