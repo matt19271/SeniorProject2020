@@ -47,19 +47,19 @@ public class MainActivity extends AppCompatActivity {
                 String email = emailId.getText().toString();
                 String pwd = password.getText().toString();
                 if (email.isEmpty()){
-                    emailId .setError("Please enter email id");
+                    emailId .setError("Please enter a valid email!");
                     emailId.requestFocus();
                 }
                 else if (pwd.isEmpty() || pwd.length() < 7){
-                    password.setError("please enter password or check length is at least 7 characters");
+                    password.setError("Please enter a password or check length is at least 7 characters");
                     password.requestFocus();
                 }
                 else if(email.isEmpty() && pwd.isEmpty() )
                 {
-                    Toast.makeText(MainActivity.this,"Fields are empty!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"Please enter a valid email and password!", Toast.LENGTH_SHORT).show();
                 }
                 else if(!(email.isEmpty() && pwd.isEmpty())){
-                    mFirebaseAuth.createUserWithEmailAndPassword(email,pwd).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+                    mFirebaseAuth.createUserWithEmailAndPassword(email, pwd).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(!task.isSuccessful()){

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "930195560181",
-    "firebase_url": "https://hyfy-48ea4.firebaseio.com",
-    "project_id": "hyfy-48ea4",
-    "storage_bucket": "hyfy-48ea4.appspot.com"
+    "project_number": "1084074895016",
+    "firebase_url": "https://haircutforyourface.firebaseio.com",
+    "project_id": "haircutforyourface",
+    "storage_bucket": "haircutforyourface.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:930195560181:android:2e25ab0d7915c260c2d7bc",
+        "mobilesdk_app_id": "1:1084074895016:android:dc8122dca2646ebd01049d",
         "android_client_info": {
           "package_name": "com.example.hfyf"
         }
       },
       "oauth_client": [
         {
-          "client_id": "930195560181-7u74tu8mme2hjn2lfdc9oofmdrmtee9d.apps.googleusercontent.com",
+          "client_id": "1084074895016-98f7fffncht0dqf8bcsggljmu322l46q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAv7DvZyEPgiFZ4FYEBo8BHdw5TGyDNQxM"
+          "current_key": "AIzaSyAHAwInQVxz4f11SMJdZ9mUlxmAwWb0TxA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "930195560181-7u74tu8mme2hjn2lfdc9oofmdrmtee9d.apps.googleusercontent.com",
+              "client_id": "1084074895016-98f7fffncht0dqf8bcsggljmu322l46q.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
