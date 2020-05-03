@@ -11,10 +11,10 @@ Modified from https://github.com/mtobeiyf/keras-flask-deploy-webapp
 - cd to the flask deployment folder
 - Install requirements
     1. Be sure you're running 64-bit installation of Python
-				2. >pip install virtualenv
-				3. >virtualenv venv
-				4. >venv\Scripts\activate
-				5. >pip install -r requirements.txt
+	2. >pip install virtualenv
+	3. >virtualenv venv
+	4. >venv\Scripts\activate
+	5. >pip install -r requirements.txt
 	
 - Run the script
     - >python app.py
