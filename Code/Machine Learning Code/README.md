@@ -9,11 +9,10 @@ The first neural network that I learnt to build that classifies handwritten digi
 The first convolutional neural network that is build that again classifies handwritten digits in the MNIST dataset. 
 
 3. Cats_vs_Dogs_CNN
-
 This is the more complex CNN tutorial from the book Deep Learning in Python that classifies images of cats and dogs. This covers everything needed to work on my own covent to classify face shape from data preprocessing of the image files to the combatting overfitting and more. 
 
 4. Face Shape Custom Model face_shape_one
- First attempt to build a CNN that can classify 5 different face shapes. Here, I simply built a fairly simple model to see that it’s working.
+First attempt to build a CNN that can classify 5 different face shapes. Here, I simply built a fairly simple model to see that it’s working.
 
 5. Face Shape Inception V3 face_shape_one
 Instead of building a CNN from scratch, I learnt to utilize the pretrained convent using feature extraction where I extract the features learnt by the pretrained conv base and then retrain my model on the classifier that I add on top of it.
