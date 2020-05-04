@@ -11,8 +11,8 @@
 	6. Click sign in if you do have one.
 
 2. Running the Convolutional Neural Network
-	* To follow along with the machine learning demo, go to the file called Machine Learning Models and see furthe details in its README file. 
+	* To follow along with the machine learning demo that shows a new method of using a pretrinaed convent, go to the file called Machine Learning Models and see furthe details in its README file. 
 
 3. Web Interface of the model
-	* Go to file called flask-deployment and see further details in its README file.
+	* To see a web interface where one of the model is deployed and test it on a picture that you upload, go to file called flask-deployment and see further details in its README file.
 
