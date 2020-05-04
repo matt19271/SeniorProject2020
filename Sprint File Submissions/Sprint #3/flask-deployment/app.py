@@ -32,7 +32,7 @@ app = Flask(__name__)
 
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/vgg16_w_aug_model.h5'
+MODEL_PATH = 'models/mobileNet_aug_face_shape_combined.h5'
 
 # Load your own trained model
 model = load_model(MODEL_PATH)
