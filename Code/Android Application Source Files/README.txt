@@ -1,0 +1,3 @@
+-All files within this directory showcase the code generated and written for the hyfy android application as of Sprint #3. 
+-This does not include the python based code for the machine learning model.
+-All files can be easily read using any standard text editor.
