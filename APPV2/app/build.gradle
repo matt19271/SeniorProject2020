@@ -21,6 +21,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 }
 
@@ -34,4 +38,13 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
     //implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation "com.google.firebase:firebase-auth:19.3.1"
+
+    // Provides ARCore Session and related resources.
+    implementation 'com.google.ar:core:1.8.0'
+
+    implementation 'com.google.android.material:material:1.0.0'
+
+    // https://mvnrepository.com/artifact/de.javagl/obj
+    implementation group: 'de.javagl', name: 'obj', version: '0.3.0'
+
 }

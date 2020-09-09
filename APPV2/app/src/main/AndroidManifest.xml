@@ -3,7 +3,13 @@
     package="com.example.hfyf">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Limits app visibility in the Google Play Store to ARCore supported devices
+     (https://developers.google.com/ar/discover/supported-devices). -->
+    <uses-feature android:name="android.hardware.camera.ar" />
+
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,6 +37,9 @@
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
 
+        <!-- "AR Required" app, requires "Google Play Services for AR" (ARCore)
+       to be installed, as the app does not include any non-AR features. -->
+        <meta-data android:name="com.google.ar.core" android:value="required" />
 
     </application>
 
