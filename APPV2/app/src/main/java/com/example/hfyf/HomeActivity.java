@@ -13,6 +13,7 @@ public class HomeActivity extends AppCompatActivity {
 
     Button btnLogout;
     Button btnTakePicture;
+    Button btnOpenAR;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -23,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
 
         btnLogout = findViewById(R.id.button3);
         btnTakePicture = findViewById(R.id.button4);
+        btnOpenAR = findViewById(R.id.button5);
 
         btnTakePicture.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +41,14 @@ public class HomeActivity extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 Intent intToMain = new Intent(HomeActivity.this,MainActivity.class);
                 startActivity(intToMain);
+            }
+        });
+
+        btnOpenAR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intToAR = new Intent(HomeActivity.this,AugmentedFacesActivity.class);
+                startActivity(intToAR);
             }
         });
 

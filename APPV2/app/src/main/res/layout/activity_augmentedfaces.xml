@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.hfyf.AugmentedFacesActivity">
 
-    <android.opengl.GLSurfaceView
-        android:id="@+id/surfaceview"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="top"/>
+    <fragment
+        android:id="@+id/fragment"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
