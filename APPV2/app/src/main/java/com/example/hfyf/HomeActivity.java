@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
         btnOpenAR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intToAR = new Intent(HomeActivity.this,AugmentedFacesActivity.class);
+                Intent intToAR = new Intent(HomeActivity.this,ARActivity.class);
                 startActivity(intToAR);
             }
         });

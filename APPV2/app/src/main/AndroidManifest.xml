@@ -6,7 +6,8 @@
 
     <!-- Limits app visibility in the Google Play Store to ARCore supported devices
      (https://developers.google.com/ar/discover/supported-devices). -->
-    <uses-feature android:name="android.hardware.camera.ar" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+
 
     <application
 
@@ -19,7 +20,7 @@
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CameraActivity"/>
-        <activity android:name=".AugmentedFacesActivity"/>
+        <activity android:name=".ARActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
