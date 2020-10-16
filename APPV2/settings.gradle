@@ -1,2 +1,5 @@
+include ':deepar'
 rootProject.name='HFYF'
 include ':app'
+
+

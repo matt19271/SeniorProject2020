@@ -3,6 +3,8 @@
     package="com.example.hfyf">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <!-- Limits app visibility in the Google Play Store to ARCore supported devices
      (https://developers.google.com/ar/discover/supported-devices). -->
